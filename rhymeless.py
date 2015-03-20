@@ -498,7 +498,7 @@ if __name__ == '__main__':
 			print err
 	#print args
 	#sys.exit()
-	if ("-h", "") in optlist:
+	if "-h" in optlist:
 		print help
 		sys.exit()
 	if len(args) > 0 and args[0] in set(["plain", "html", "sqlite"]):
